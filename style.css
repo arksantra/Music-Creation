@@ -70,15 +70,45 @@ header p {
 @keyframes jump {
   0% {
     bottom: 0%;
-    left: 20%;
+    left: 10%;
+    animation: linear;
   }
-  50% {
-    bottom: 50%;
+  20%{
+    bottom: 30%;
+    left: 20%;
+    animation: linear;
+  }
+  30%{
+    bottom: 60%;
     left: 50%;
+    animation: linear;
   }
 
+  40%{
+    bottom: 30%;
+    left: 65%;
+    animation: linear;
+
+  }
+  50% {
+    bottom: 20%;
+    left: 50%;
+    animation: linear;
+  }
+  60%{
+    bottom: 30%;
+    left: 35%;
+    animation: linear; }
+  70%{
+    bottom: 60%;
+    left: 50%;
+    animation: linear; }
+  80%{
+    bottom: 30%;
+    left: 80%;
+    animation: linear; }
   100% {
     bottom: 00%;
-    left: 80%;
-  }
+    left: 90%;
+    animation: linear; }
 }
